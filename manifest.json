@@ -1,0 +1,21 @@
+{
+    "manifest_version":2,
+    "name":"students",
+    "version":"2.1.0",
+    "description":"hello",
+    "author":"atheena",
+    "icons":{
+        "128":"hiring.png"
+    },
+    
+    "browser_action":{
+        "default_icon":"hiring.png",
+        "default_title":"student",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"],
+    "background":{
+        "scripts":["init.js"]
+    }   
+
+}
